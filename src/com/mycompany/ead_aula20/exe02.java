@@ -42,6 +42,7 @@ public class exe02 {
             }
             System.out.println("Pontuação: " + pontos);
             System.out.println("Jogos - " + quantidadeJogos);
+        System.out.println("Pontos: " + pontuacaoGeral);
             System.out.println("Deseja continuar? (1/0)");
             int continuar = scanner.nextInt();
             if(continuar != 1) break;
